@@ -10,7 +10,7 @@ const Buttons = () => {
     <div>
       <h1>React</h1>
       <button className="prettierButton" onClick={() => dispatch(increment())}>
-        +1
+        +2
       </button>
       <button className="prettierButton" onClick={() => dispatch(decrement())}>
         -1
