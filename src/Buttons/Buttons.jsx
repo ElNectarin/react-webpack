@@ -6,11 +6,14 @@ const Buttons = () => {
   const count = useSelector((state) => state.counter.value);
   const dispatch = useDispatch();
 
+
   return (
     <div>
       <h1>React</h1>
+
+
       <button className="prettierButton" onClick={() => dispatch(increment())}>
-        +2
+        +1
       </button>
       <button className="prettierButton" onClick={() => dispatch(decrement())}>
         -1

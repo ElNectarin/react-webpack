@@ -1,11 +1,12 @@
 import "./App.css";
 import Buttons from "./Buttons/Buttons";
+import Vizhener from "./Buttons/Vizhener/Vizhener";
 
 const App = () => {
   return (
     <div>
-    <h1>Button</h1>
     <Buttons />
+    <Vizhener />
     </div>
   );
 };
