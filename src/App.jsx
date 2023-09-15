@@ -4,7 +4,7 @@ import Vizhener from "./Buttons/Vizhener/Vizhener";
 
 const App = () => {
   return (
-    <div>
+    <div className="appDiv">
     <Buttons />
     <Vizhener />
     </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Buttons.css"
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment } from "../Redux/Features/Counter/CounterSlice";
 
@@ -8,8 +9,8 @@ const Buttons = () => {
 
 
   return (
-    <div>
-      <h1>React</h1>
+    <div className="reduxCounter">
+      <h1>React - counter</h1>
 
 
       <button className="prettierButton" onClick={() => dispatch(increment())}>
