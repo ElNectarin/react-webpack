@@ -21,6 +21,9 @@ const Vizhener = () => {
         let ki = alphabit.indexOf(ki_s);
         let kid = -ki;
         let c = alphabit[(alphabit.length + (mi + ki)) % alphabit.length]; //Символ по таблице Виженера
+        if (mi.length == ki_s) {
+          console.log("1")
+        }
         let cd = alphabit[(alphabit.length + (mi + kid)) % alphabit.length];
         setEncryptMSG((r += c)); //Добавить символ к результату
         setDecryptMSG((d += cd));
